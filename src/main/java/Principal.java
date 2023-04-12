@@ -30,8 +30,8 @@ public class Principal {
                     System.out.println("   " + mensagem);
                 }
             }
-        } catch (IOException io) {
-            System.err.println("Problemas de IO");
+        } catch (IOException ioe) {
+            System.out.println("Excecao: " + ioe.getMessage());
         }
     }
 }
